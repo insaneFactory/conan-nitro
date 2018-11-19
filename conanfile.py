@@ -6,7 +6,7 @@ class NitroConan(ConanFile):
 	name = "nitro"
 	version = "2.7"
 	license = "LGPL-3.0"
-	url = "https://github.com/GrobAircraftAG/conan-nitro"
+	url = "https://github.com/insaneFactory/conan-nitro"
 	description = "NITRO is a full-fledged, extensible library solution for reading and writing the National Imagery Transmission Format (NITF), a U.S. DoD standard format. It is written in cross-platform C, with bindings available for other languages."
 	settings = "os", "compiler", "build_type", "arch"
 	options = {"shared": [True, False]}
